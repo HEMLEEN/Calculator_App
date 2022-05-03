@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Welcome Calculator App</h1>
+  </header>
+  <div class="container">
+    <div class="card">
+      <div class="btn-card-front">
+        <button class="numeric" id="value1" onclick="dis('1')">1</button>
+        <button class="numeric" id="value2" onclick="dis('2')">2</button>
+        <button class="numeric" id="value3" onclick="dis('3')">3</button>
+        <button class="numericall" id="add" onclick="dis('+')">+</button>
+        <br>
+        <button class="numeric" id="value3" onclick="dis('4')">4</button>
+        <button class="numeric" id="value3" onclick="dis('5')">5</button>
+        <button class="numeric" id="value3" onclick="dis('6')">6</button>
+        <button class="numericall" id="add" onclick="dis('-')">-</button>
+        <br>
+        <button class="numeric" id="value3" onclick="dis('7')">7</button>
+        <button class="numeric" id="value3" onclick="dis('8')">8</button>
+        <button class="numeric" id="value3" onclick="dis('9')">9</button>
+        <button class="numericall" id="value3" onclick="dis('*')">*</button>
+        <br>
+        <button class="numeric" id="value3" onclick="fnClr()">Clr</button>
+        <button class="numericall" onclick="fnadd()">=</button>
+        <button class="numericall" id="value3" onclick="dis('%')">%</button>
+        <button class="numericall" id="value3" onclick="dis('/')">/</button>
+      </div>
+      <div class="btn-card-back">
+<div class="maincard">
+
+        <input type="button" id="demo">
+      </div>
+
+      </div>
+      <div class="numbtn"></div>
+
+    </div>
+  </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
